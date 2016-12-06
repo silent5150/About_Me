@@ -44,3 +44,21 @@ if (question5 === 'vegan') {
   alert('Nope Nope and Nope, must be all that meat on the brain!');
   console.log('answer is vegan');
 }
+//As a developer, I want to add a sixth question to my guessing game that takes numeric input by prompting a user to guess a number (for instance, "What is my favorite number?" or "How many Pokémon did I catch yesterday?"), and indicates to the user whether the guess is 'too high' or 'too low', and gives the user exactly four opportunities to get the correct answer, so that my fancy programming skills are showcased.
+var question6 = prompt('What is my favorite number series?');
+
+if (question6 < '4400)') {
+  alert('Nope, sorry your too low!');
+}
+if (question6 === '4400') {
+  alert('Your right, Umm have you been stalking me');
+} else {
+  alert('Sorry, but hey, don\'t feel bad this answer is almost impossible to guess');
+}
+if (question6 < '4400') {
+  alert('Sorry but your guess i a litle too high... try agsin!');
+}
+//eveloper, I want to add a seventh question to my guessing game that has multiple possible correct answers that are stored in an array. For instance, "Can you guess a state that I have lived in besides Washington?", so that even more of my programming skills are showcased. For now, I will structure this question so that the user has six tries to get a single correct answer, and upon using up those tries OR getting a correct answer, displays a message to the user indicating all of the possible correct answers.
+var cheriseKnows = prompt('Can you name one subject Cherise has studied in College?');
+
+var cheriseKnows = ('automotive', 'business', 'law', 'coding', 'project management', 'accounting');
